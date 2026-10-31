@@ -32,6 +32,7 @@ CREATE TABLE HorarioPrograma(
 	horaFin TIME NOT NULL,
 	diaSemana VARCHAR(20) NOT NULL,
 	conductorPrincipal VARCHAR(100) NOT NULL,
+	tipo VARCHAR(30) NOT NULL,
 	estado SMALLINT NOT NULL DEFAULT 1
 
 	CONSTRAINT FK_HorarioPrograma_Canal FOREIGN KEY (idCanal)
@@ -42,7 +43,7 @@ DROP PROC IF EXISTS paProgramaListar;
 GO
 CREATE PROC paProgramaListar @parametro VARCHAR(50)
 AS
-  SELECT p.id, p.idCanal, p.titulo, p.horaInicio, p.horaFin, p.diaSemana, p.conductorPrincipal, c.nombre AS canal,
+  SELECT p.id, p.idCanal, p.titulo,p.tipo, p.horaInicio, p.horaFin, p.diaSemana, p.conductorPrincipal, c.nombre AS canal,
 		 p.usuarioRegistro, p.fechaRegistro, p.estado
   FROM HorarioPrograma p
   INNER JOIN Canal c ON c.id = p.idCanal
@@ -76,29 +77,29 @@ VALUES ('PAT', 'Television', 1);
 
 
 INSERT INTO HorarioPrograma
-(idCanal, titulo, horaInicio, horaFin, diaSemana, conductorPrincipal, estado)
+(idCanal, titulo, horaInicio, horaFin, diaSemana, conductorPrincipal,tipo, estado)
 VALUES
-(1, 'Noticiero Central', '09:00', '10:15', 'Lunes', 'Juan Perez', 1);
+(1, 'Noticiero Central', '09:00', '10:15', 'Lunes', 'Juan Perez','Farandula', 1);
 
 INSERT INTO HorarioPrograma
-(idCanal, titulo, horaInicio, horaFin, diaSemana, conductorPrincipal, estado)
+(idCanal, titulo, horaInicio, horaFin, diaSemana, conductorPrincipal, tipo, estado)
 VALUES
-(2, 'Deportes al Dia', '10:30', '11:30', 'Martes', 'Carlos Lopez', 1);
+(2, 'Deportes al Dia', '10:30', '11:30', 'Martes', 'Carlos Lopez','Deportes', 1);
 
 INSERT INTO HorarioPrograma
-(idCanal, titulo, horaInicio, horaFin, diaSemana, conductorPrincipal, estado)
+(idCanal, titulo, horaInicio, horaFin, diaSemana, conductorPrincipal, tipo, estado)
 VALUES
-(3, 'Noticias Bolivia', '12:00', '13:00', 'Miercoles', 'Maria Fernandez', 1);
+(3, 'Noticias Bolivia', '12:00', '13:00', 'Miercoles', 'Maria Fernandez','Cocina', 1);
 
 INSERT INTO HorarioPrograma
-(idCanal, titulo, horaInicio, horaFin, diaSemana, conductorPrincipal, estado)
+(idCanal, titulo, horaInicio, horaFin, diaSemana, conductorPrincipal, tipo, estado)
 VALUES
-(4, 'Entretenimiento Total', '15:00', '16:30', 'Jueves', 'Luis Ramirez', 1);
+(4, 'Entretenimiento Total', '15:00', '16:30', 'Jueves', 'Luis Ramirez','Niños', 1);
 
 INSERT INTO HorarioPrograma
-(idCanal, titulo, horaInicio, horaFin, diaSemana, conductorPrincipal, estado)
+(idCanal, titulo, horaInicio, horaFin, diaSemana, conductorPrincipal, tipo, estado)
 VALUES
-(5, 'Cine en Casa', '20:00', '22:00', 'Viernes', 'Ana Morales', 1);
+(5, 'Cine en Casa', '20:00', '22:00', 'Viernes', 'Ana Morales','Accion', 1);
 
 SELECT * FROM Canal;
 SELECT * FROM HorarioPrograma;

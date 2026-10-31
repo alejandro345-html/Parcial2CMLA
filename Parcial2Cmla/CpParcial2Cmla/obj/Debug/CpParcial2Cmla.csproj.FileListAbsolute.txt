@@ -19,3 +19,24 @@ E:\CuartoSemestro2026\SIS 457 - 2026\Parcial2.1\Parcial2Cmla\CpParcial2Cmla\bin\
 E:\CuartoSemestro2026\SIS 457 - 2026\Parcial2.1\Parcial2Cmla\CpParcial2Cmla\obj\Debug\CpParcia.523FBEDE.Up2Date
 E:\CuartoSemestro2026\SIS 457 - 2026\Parcial2.1\Parcial2Cmla\CpParcial2Cmla\obj\Debug\CpParcial2Cmla.exe
 E:\CuartoSemestro2026\SIS 457 - 2026\Parcial2.1\Parcial2Cmla\CpParcial2Cmla\obj\Debug\CpParcial2Cmla.pdb
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\bin\Debug\CpParcial2Cmla.exe.config
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\bin\Debug\CpParcial2Cmla.exe
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\bin\Debug\CpParcial2Cmla.pdb
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\bin\Debug\CadParcial2Cmla.dll
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\bin\Debug\ClnParcialCmla.dll
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\bin\Debug\EntityFramework.dll
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\bin\Debug\CadParcial2Cmla.pdb
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\bin\Debug\CadParcial2Cmla.dll.config
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\bin\Debug\ClnParcialCmla.pdb
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\bin\Debug\ClnParcialCmla.dll.config
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\bin\Debug\EntityFramework.xml
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\obj\Debug\CpParcial2Cmla.csproj.AssemblyReference.cache
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\obj\Debug\CpParcial2Cmla.FrmPrograma.resources
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\obj\Debug\CpParcial2Cmla.Properties.Resources.resources
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\obj\Debug\CpParcial2Cmla.csproj.GenerateResource.cache
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\obj\Debug\CpParcial2Cmla.csproj.CoreCompileInputs.cache
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\obj\Debug\CpParcia.523FBEDE.Up2Date
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\obj\Debug\CpParcial2Cmla.exe
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\CpParcial2Cmla\obj\Debug\CpParcial2Cmla.pdb

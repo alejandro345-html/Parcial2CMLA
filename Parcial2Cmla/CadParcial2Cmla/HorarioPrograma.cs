@@ -21,6 +21,7 @@ namespace CadParcial2Cmla
         public System.TimeSpan horaFin { get; set; }
         public string diaSemana { get; set; }
         public string conductorPrincipal { get; set; }
+        public string tipo { get; set; }
         public short estado { get; set; }
         public string usuarioRegistro { get; set; }
         public System.DateTime fechaRegistro { get; set; }

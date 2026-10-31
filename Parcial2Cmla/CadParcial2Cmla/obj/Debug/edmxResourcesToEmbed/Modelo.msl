@@ -23,6 +23,7 @@
           <ScalarProperty Name="horaFin" ColumnName="horaFin" />
           <ScalarProperty Name="diaSemana" ColumnName="diaSemana" />
           <ScalarProperty Name="conductorPrincipal" ColumnName="conductorPrincipal" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
           <ScalarProperty Name="estado" ColumnName="estado" />
           <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
           <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
@@ -35,6 +36,7 @@
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="idCanal" ColumnName="idCanal" />
           <ScalarProperty Name="titulo" ColumnName="titulo" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
           <ScalarProperty Name="horaInicio" ColumnName="horaInicio" />
           <ScalarProperty Name="horaFin" ColumnName="horaFin" />
           <ScalarProperty Name="diaSemana" ColumnName="diaSemana" />

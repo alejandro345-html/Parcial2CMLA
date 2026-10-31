@@ -16,6 +16,7 @@ namespace CadParcial2Cmla
         public int id { get; set; }
         public int idCanal { get; set; }
         public string titulo { get; set; }
+        public string tipo { get; set; }
         public System.TimeSpan horaInicio { get; set; }
         public System.TimeSpan horaFin { get; set; }
         public string diaSemana { get; set; }

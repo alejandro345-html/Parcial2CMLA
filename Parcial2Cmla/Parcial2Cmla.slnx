@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="CadParcial2Cmla/CadParcial2Cmla.csproj" />
-  <Project Path="ClnParcialCmla/ClnParcial2Cmla.csproj" />
-  <Project Path="CpParcial2Cmla/CpParcial2Cmla.csproj" />
+  <Project Path="CadParcial2Cmla/CadParcial2Cmla.csproj" Id="6179fddc-5e62-4999-9cf7-3d6167cd987e" />
+  <Project Path="ClnParcialCmla/ClnParcial2Cmla.csproj" Id="4703825c-96f4-45ec-b721-d26e76e0c61c" />
+  <Project Path="CpParcial2Cmla/CpParcial2Cmla.csproj" Id="9bd89817-033b-4c58-9a35-27316f8236ee" />
 </Solution>

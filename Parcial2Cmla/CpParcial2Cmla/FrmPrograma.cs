@@ -31,6 +31,7 @@ namespace CpParcial2Cmla
 
             dgvListarProgramas.Columns["canal"].HeaderText = "Canal";
             dgvListarProgramas.Columns["titulo"].HeaderText = "Título";
+            dgvListarProgramas.Columns["tipo"].HeaderText = "Tipo";
             dgvListarProgramas.Columns["horaInicio"].HeaderText = "Hora Inicio";
             dgvListarProgramas.Columns["horaFin"].HeaderText = "Hora Fin";
             dgvListarProgramas.Columns["diaSemana"].HeaderText = "Día de Semana";
@@ -52,6 +53,14 @@ namespace CpParcial2Cmla
             cbxCanal.SelectedIndex = -1;
         }
 
+        private void cargarTipos()
+        {
+            cbxTipo.DataSource = HorarioProgramaCln.listar();
+            cbxTipo.ValueMember = "id";
+            cbxTipo.DisplayMember = "tipo";
+            cbxTipo.SelectedIndex = -1;
+        }
+
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             listar();
@@ -62,6 +71,7 @@ namespace CpParcial2Cmla
             Size = new Size(870, 344);
             listar();
             cargarCanales();
+            cargarTipos();
         }
 
         private void txtParametro_KeyPress(object sender, KeyPressEventArgs e)
@@ -73,6 +83,7 @@ namespace CpParcial2Cmla
         {
             cbxCanal.SelectedIndex = -1;
             txtTitulo.Clear();
+            cbxTipo.SelectedIndex = -1;
             mtbxHoraInicio.Clear();
             mtbxHoraFin.Clear();
             txtDiaSemana.Clear();
@@ -82,8 +93,7 @@ namespace CpParcial2Cmla
 
         private void resetearErrores()
         {
-            erpCanal.Clear();
-            erpTitulo.Clear();
+            erpTipo.Clear();
             erpConductorPrincipal.Clear();
             erpCanal.Clear();
             erpTitulo.Clear();
@@ -110,6 +120,7 @@ namespace CpParcial2Cmla
             var horario = HorarioProgramaCln.obtenerUno(id);
 
             cbxCanal.SelectedValue = horario.idCanal;
+            cbxTipo.SelectedValue = horario.tipo;
             txtTitulo.Text = horario.titulo;
             mtbxHoraInicio.Text = horario.horaInicio.ToString(@"hh\:mm");
             mtbxHoraFin.Text = horario.horaFin.ToString(@"hh\:mm");
@@ -136,6 +147,11 @@ namespace CpParcial2Cmla
             if (string.IsNullOrWhiteSpace(txtTitulo.Text))
             {
                 erpTitulo.SetError(txtTitulo, "El título del programa es obligatorio");
+                esValido = false;
+            }
+            if (cbxTipo.SelectedIndex == -1)
+            {
+                erpTipo.SetError(cbxTipo, "Seleccione un Tipo obligatorio");
                 esValido = false;
             }
             if (!mtbxHoraInicio.MaskFull)
@@ -169,6 +185,7 @@ namespace CpParcial2Cmla
                 var horario = new HorarioPrograma
                 {
                     idCanal = (int)cbxCanal.SelectedValue,
+                    tipo = cbxTipo.Text.Trim(),
                     titulo = txtTitulo.Text.Trim(),
                     horaInicio = TimeSpan.Parse(mtbxHoraInicio.Text.Trim()),
                     horaFin = TimeSpan.Parse(mtbxHoraFin.Text.Trim()),

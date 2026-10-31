@@ -62,8 +62,12 @@
             this.erpConductorPrincipal = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpCanal = new System.Windows.Forms.ErrorProvider(this.components);
             this.pnlAcciones = new System.Windows.Forms.Panel();
+            this.lblTipo = new System.Windows.Forms.Label();
+            this.cbxTipo = new System.Windows.Forms.ComboBox();
+            this.erpTipo = new System.Windows.Forms.ErrorProvider(this.components);
             this.gxbLista.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListarProgramas)).BeginInit();
+            this.gbxDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.erpTitulo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpHoraInicio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpHoraFin)).BeginInit();
@@ -71,6 +75,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.erpConductorPrincipal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpCanal)).BeginInit();
             this.pnlAcciones.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.erpTipo)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCancelar
@@ -109,7 +114,7 @@
             this.btnBuscar.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBuscar.Location = new System.Drawing.Point(671, 36);
+            this.btnBuscar.Location = new System.Drawing.Point(671, 38);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(94, 29);
             this.btnBuscar.TabIndex = 48;
@@ -149,7 +154,7 @@
             // 
             // mtbxHoraFin
             // 
-            this.mtbxHoraFin.Location = new System.Drawing.Point(448, 388);
+            this.mtbxHoraFin.Location = new System.Drawing.Point(448, 412);
             this.mtbxHoraFin.Mask = "00:00";
             this.mtbxHoraFin.Name = "mtbxHoraFin";
             this.mtbxHoraFin.Size = new System.Drawing.Size(141, 20);
@@ -158,7 +163,7 @@
             // 
             // mtbxHoraInicio
             // 
-            this.mtbxHoraInicio.Location = new System.Drawing.Point(229, 388);
+            this.mtbxHoraInicio.Location = new System.Drawing.Point(229, 412);
             this.mtbxHoraInicio.Mask = "00:00";
             this.mtbxHoraInicio.Name = "mtbxHoraInicio";
             this.mtbxHoraInicio.Size = new System.Drawing.Size(135, 20);
@@ -249,7 +254,7 @@
             // 
             this.txtDiaSemana.BackColor = System.Drawing.SystemColors.Menu;
             this.txtDiaSemana.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.txtDiaSemana.Location = new System.Drawing.Point(254, 429);
+            this.txtDiaSemana.Location = new System.Drawing.Point(254, 442);
             this.txtDiaSemana.MaxLength = 20;
             this.txtDiaSemana.Name = "txtDiaSemana";
             this.txtDiaSemana.Size = new System.Drawing.Size(335, 20);
@@ -269,7 +274,7 @@
             // 
             this.lblHoraFin.AutoSize = true;
             this.lblHoraFin.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHoraFin.Location = new System.Drawing.Point(370, 387);
+            this.lblHoraFin.Location = new System.Drawing.Point(370, 413);
             this.lblHoraFin.Name = "lblHoraFin";
             this.lblHoraFin.Size = new System.Drawing.Size(72, 19);
             this.lblHoraFin.TabIndex = 33;
@@ -279,7 +284,7 @@
             // 
             this.lblHoraInicio.AutoSize = true;
             this.lblHoraInicio.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHoraInicio.Location = new System.Drawing.Point(109, 387);
+            this.lblHoraInicio.Location = new System.Drawing.Point(109, 411);
             this.lblHoraInicio.Name = "lblHoraInicio";
             this.lblHoraInicio.Size = new System.Drawing.Size(114, 19);
             this.lblHoraInicio.TabIndex = 32;
@@ -299,7 +304,7 @@
             // 
             this.lblDiaSemana.AutoSize = true;
             this.lblDiaSemana.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDiaSemana.Location = new System.Drawing.Point(110, 428);
+            this.lblDiaSemana.Location = new System.Drawing.Point(110, 443);
             this.lblDiaSemana.Name = "lblDiaSemana";
             this.lblDiaSemana.Size = new System.Drawing.Size(139, 19);
             this.lblDiaSemana.TabIndex = 30;
@@ -353,6 +358,8 @@
             // 
             // gbxDatos
             // 
+            this.gbxDatos.Controls.Add(this.cbxTipo);
+            this.gbxDatos.Controls.Add(this.lblTipo);
             this.gbxDatos.Location = new System.Drawing.Point(90, 306);
             this.gbxDatos.Name = "gbxDatos";
             this.gbxDatos.Size = new System.Drawing.Size(675, 200);
@@ -395,6 +402,29 @@
             this.pnlAcciones.Size = new System.Drawing.Size(830, 34);
             this.pnlAcciones.TabIndex = 52;
             // 
+            // lblTipo
+            // 
+            this.lblTipo.AutoSize = true;
+            this.lblTipo.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTipo.Location = new System.Drawing.Point(21, 78);
+            this.lblTipo.Name = "lblTipo";
+            this.lblTipo.Size = new System.Drawing.Size(42, 19);
+            this.lblTipo.TabIndex = 53;
+            this.lblTipo.Text = "Tipo";
+            // 
+            // cbxTipo
+            // 
+            this.cbxTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxTipo.FormattingEnabled = true;
+            this.cbxTipo.Location = new System.Drawing.Point(88, 76);
+            this.cbxTipo.Name = "cbxTipo";
+            this.cbxTipo.Size = new System.Drawing.Size(411, 21);
+            this.cbxTipo.TabIndex = 53;
+            // 
+            // erpTipo
+            // 
+            this.erpTipo.ContainerControl = this;
+            // 
             // FrmPrograma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -429,6 +459,8 @@
             this.Load += new System.EventHandler(this.FrmPrograma_Load);
             this.gxbLista.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListarProgramas)).EndInit();
+            this.gbxDatos.ResumeLayout(false);
+            this.gbxDatos.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.erpTitulo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpHoraInicio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpHoraFin)).EndInit();
@@ -436,6 +468,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.erpConductorPrincipal)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpCanal)).EndInit();
             this.pnlAcciones.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.erpTipo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -475,6 +508,9 @@
         private System.Windows.Forms.ErrorProvider erpConductorPrincipal;
         private System.Windows.Forms.ErrorProvider erpCanal;
         private System.Windows.Forms.Panel pnlAcciones;
+        private System.Windows.Forms.Label lblTipo;
+        private System.Windows.Forms.ComboBox cbxTipo;
+        private System.Windows.Forms.ErrorProvider erpTipo;
     }
 }
 

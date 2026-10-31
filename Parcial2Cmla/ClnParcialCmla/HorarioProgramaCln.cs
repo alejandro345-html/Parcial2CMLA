@@ -34,6 +34,7 @@ namespace ClnParcialCmla
 
                 existe.idCanal = horario.idCanal;
                 existe.titulo = horario.titulo;
+                existe.tipo = horario.tipo;
                 existe.horaInicio = horario.horaInicio;
                 existe.horaFin = horario.horaFin;
                 existe.diaSemana = horario.diaSemana;

@@ -13,3 +13,18 @@ E:\CuartoSemestro2026\SIS 457 - 2026\Parcial2.1\Parcial2Cmla\ClnParcialCmla\bin\
 E:\CuartoSemestro2026\SIS 457 - 2026\Parcial2.1\Parcial2Cmla\ClnParcialCmla\obj\Debug\ClnParci.D922D4A8.Up2Date
 E:\CuartoSemestro2026\SIS 457 - 2026\Parcial2.1\Parcial2Cmla\ClnParcialCmla\obj\Debug\ClnParcialCmla.dll
 E:\CuartoSemestro2026\SIS 457 - 2026\Parcial2.1\Parcial2Cmla\ClnParcialCmla\obj\Debug\ClnParcialCmla.pdb
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\ClnParcialCmla\bin\Debug\ClnParcialCmla.dll.config
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\ClnParcialCmla\bin\Debug\ClnParcialCmla.dll
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\ClnParcialCmla\bin\Debug\ClnParcialCmla.pdb
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\ClnParcialCmla\bin\Debug\CadParcial2Cmla.dll
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\ClnParcialCmla\bin\Debug\EntityFramework.dll
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\ClnParcialCmla\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\ClnParcialCmla\bin\Debug\CadParcial2Cmla.pdb
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\ClnParcialCmla\bin\Debug\CadParcial2Cmla.dll.config
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\ClnParcialCmla\bin\Debug\EntityFramework.xml
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\ClnParcialCmla\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\ClnParcialCmla\obj\Debug\ClnParcial2Cmla.csproj.AssemblyReference.cache
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\ClnParcialCmla\obj\Debug\ClnParcial2Cmla.csproj.CoreCompileInputs.cache
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\ClnParcialCmla\obj\Debug\ClnParci.D922D4A8.Up2Date
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\ClnParcialCmla\obj\Debug\ClnParcialCmla.dll
+C:\Users\LUCHO 2.0\Desktop\Parcial2CMLA\Parcial2Cmla\ClnParcialCmla\obj\Debug\ClnParcialCmla.pdb
