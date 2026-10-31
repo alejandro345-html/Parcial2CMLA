@@ -1,0 +1,2 @@
+E:\CuartoSemestro2026\SIS 457 - 2026\Parcial2.1\Parcial2Cmla\ClnParcialCmla\obj\Debug\ClnParcialCmla.csproj.AssemblyReference.cache
+E:\CuartoSemestro2026\SIS 457 - 2026\Parcial2.1\Parcial2Cmla\ClnParcialCmla\obj\Debug\ClnParcialCmla.csproj.CoreCompileInputs.cache
